@@ -19,7 +19,7 @@
     <div class="scrolling-wrapper">
       <div class="row flex-nowrap mt-1">
         <div v-for="(list,index) in Listnames" :key="index">
-          <TodoList :listname= list.listname />
+          <TodoList :listname= list.listname :default-checked="true" />
         </div>
       </div>
     </div>
